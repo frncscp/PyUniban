@@ -7,5 +7,3 @@ Clase No. 3: condicionales, bucles, listas y operadores lógicos.
 Clase No. 4: listas por comprensión, creación de funciones.
 
 Clase No. 5: introducción a módulos con Matplotlib y Random.
-
-Clase No. 6: debugging

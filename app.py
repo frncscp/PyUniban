@@ -1,9 +1,10 @@
 import streamlit as st
 
-#st.set_page_config = ( 
-#    page_title = 'PyUnibán',
-#    layout = 'wide'
-#)
+st.set_page_config(
+    page_title = 'PyUniban',
+    layout= 'wide',
+    page_icon = "escudo.png"
+)
 
 col_a, col_b, = st.columns(2)
 

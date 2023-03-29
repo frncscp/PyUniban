@@ -12,8 +12,8 @@ st.caption("organizado por el Semillero de Matemáticas orientadas a la Ingenier
 
 st.title("Clases")
 st.markdown(f"""
- Clase No. 1: cadenas y números, funciones predeterminadas, operadores y fundamentos de sintaxis. [Entrar: ](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_1.ipynb)
+ [Clase No. 1:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_1.ipynb) cadenas y números, funciones predeterminadas, operadores y fundamentos de sintaxis. 
 
- Clase No. 2: manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. [Entrar: ](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb)
+ [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. 
 """)
 st.caption("Para poder usar los jupyter notebooks, primero se debe dar click al botón \"copiar en Drive\"")

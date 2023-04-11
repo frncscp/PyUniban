@@ -30,10 +30,10 @@ with col_b:
 from decimal import Decimal
 from math import e as euler
 
-def sigmoid(w, x, b): #weight, input, bias
+def sigmoid(w, x, b): #pesos, entradas, sesgos
     z = 0
     if not len(w) == len(x) == len(b):
-        return 'Size Error: lists do not share the same size.'
+        return 'Error: las listas difieren en tamaño.'
     for weight, entrance, bias in zip(w, x, b):
         z+= weight*entrance-bias
     result = 1/Decimal(1+(euler**-z))
@@ -42,4 +42,4 @@ def sigmoid(w, x, b): #weight, input, bias
 result = sigmoid([1, 2, -2], [4, 1, 6], [2, 1, 7])
 print(result)""")
 
-st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')
+    st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')

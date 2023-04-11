@@ -22,7 +22,7 @@ with col_a:
 
      [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. 
     """)
-    st.caption("Para poder usar los jupyter notebooks, primero se debe dar click al botón \"Copiar en Drive\".")
+    st.caption("Para poder usar los Jupyter Notebooks, primero se debe dar click al botón \"Copiar en Drive\".")
 
 with col_b:
     st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')
@@ -43,3 +43,11 @@ def sigmoid(w, x, b): #pesos, entradas, sesgos
 result = sigmoid([1, 2, -2], [4, 1, 6], [2, 1, 7])
 print(result)""")
 
+st.divider()
+
+st.markdown("""
+## Recursos en línea:
+
+[StackOverflow](https://stackoverflow.com): encuentra soluciones a errores que puedan aparecer en tu código.
+
+[Python desde cero](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz): serie de videos en español que profundizan los fundamentos de Python.

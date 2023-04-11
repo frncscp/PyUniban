@@ -2,13 +2,13 @@ import streamlit as st
 
 st.set_page_config(
     page_title = 'PyUniban',
-    page_icon = r"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+    page_icon = r"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    layout = 'centered
 )
 
 
-
 st.title("Curso introductorio a Python")
-st.caption("orientado a matemáticas")
+st.caption("Orientado a matemáticas")
 
 st.title("Clases")
 st.markdown(f"""

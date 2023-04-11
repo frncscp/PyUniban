@@ -25,6 +25,7 @@ with col_a:
     st.caption("Para poder usar los jupyter notebooks, primero se debe dar click al botón \"Copiar en Drive\".")
 
 with col_b:
+    st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')
     st.code(line_numbers = True,
             body = """
 from decimal import Decimal
@@ -42,4 +43,3 @@ def sigmoid(w, x, b): #pesos, entradas, sesgos
 result = sigmoid([1, 2, -2], [4, 1, 6], [2, 1, 7])
 print(result)""")
 
-    st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')

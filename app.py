@@ -17,12 +17,16 @@ col_a, col_b = st.columns(2)
 with col_a:
 
     st.title("Clases")
+    st.caption("Para poder usar los Jupyter Notebooks, primero se debe dar click al botón \"Copiar en Drive\".")
     st.markdown(f"""
      [Clase No. 1:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_1.ipynb) cadenas y números, funciones predeterminadas, operadores aritméticos y fundamentos de sintaxis. 
 
      [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. 
-    """)
-    st.caption("Para poder usar los Jupyter Notebooks, primero se debe dar click al botón \"Copiar en Drive\".")
+     
+     [Clase No. 3:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_3.ipynb) estructuras de control de flujo, listas y operadores lógicos.
+     
+     """)
+    
 
 with col_b:
     st.latex(r'\sigma(z) = \frac{1} {1 + e^{-z}}')

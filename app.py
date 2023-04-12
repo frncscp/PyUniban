@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title = 'PyUniban',
+    page_title = 'Curso breve de Python dirigido a principiantes orientado a matemáticas.',
     page_icon = r"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
     layout = 'wide'
 )

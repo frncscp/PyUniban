@@ -29,20 +29,20 @@ with col_b:
     st.code(line_numbers = True,
             body = """
 from decimal import Decimal
-from math import e as euler
+from math import e 
 
 def sigmoid(w, x, b): #pesos, entradas, sesgos
+    assert len(w) == len(x) == len(b), 'Las listas difieren en tamaño.'
     z = 0
-    if not len(w) == len(x) == len(b):
-        return 'Error: las listas difieren en tamaño.'
     for weight, entrance, bias in zip(w, x, b):
         z+= weight*entrance-bias
-    result = 1/Decimal(1+(euler**-z))
+    result = 1/Decimal(1+(e**-z))
     return result
 
-result = sigmoid([1, 2, -2], [4, 1, 6], [2, 1, 7])
-print(result)""")
-
+result = sigmoid([1, 2, -2], [4, 1], [2, 1, 7])
+print(result)
+""")
+    
 st.divider()
 
 st.markdown("""

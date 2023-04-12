@@ -32,7 +32,7 @@ from decimal import Decimal
 from math import e 
 
 def sigmoid(w, x, b): #pesos, entradas, sesgos
-    assert len(w) == len(x) == len(b), 'Las listas difieren en tamaño.'
+    assert len(w) == len(x) == len(b), 'Unequal lists\' shapes.'
     z = 0
     for weight, entrance, bias in zip(w, x, b):
         z+= weight*entrance-bias

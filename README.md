@@ -1,4 +1,4 @@
-## *Clase No. 1:* cadenas y números, funciones predeterminadas, operadores y fundamentos de sintaxis.
+## *Clase No. 1:* cadenas y números, funciones predeterminadas, operadores aritméticos y fundamentos de sintaxis.
 
 ## *Clase No. 2:* manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos.
 

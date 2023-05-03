@@ -43,7 +43,7 @@ def sigmoid(w, x, b): #pesos, entradas, sesgos
     result = 1/Decimal(1+(e**-z))
     return result
 
-result = sigmoid([1, 2, -2], [4, 1], [2, 1, 7])
+result = sigmoid([1, 2, -2], [4, 1, 2], [2, 1, 7])
 print(result)
 """)
     

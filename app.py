@@ -21,7 +21,7 @@ with col_a:
     st.markdown(f"""
      [Clase No. 1:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_1.ipynb) cadenas y números, funciones predeterminadas, operadores aritméticos y fundamentos de sintaxis. 
 
-     [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. 
+     [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, f-strings e introducción a los métodos. 
      
      [Clase No. 3:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_3.ipynb) estructuras de control de flujo, listas y operadores lógicos.
 

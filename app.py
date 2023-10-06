@@ -57,4 +57,6 @@ st.markdown("""
 [StackOverflow](https://stackoverflow.com): encuentra soluciones a errores que puedan aparecer en tu código.
 
 [Python desde cero](https://www.youtube.com/playlist?list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz): serie de videos en español que profundizan los fundamentos de Python.
+
+[Microsoft Learn - Primeros pasos con Python](https://learn.microsoft.com/es-es/training/paths/beginner-python/): curso gratis de Microsoft para aprender Python.
 """)

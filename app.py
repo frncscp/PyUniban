@@ -24,6 +24,8 @@ with col_a:
      [Clase No. 2:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_2.ipynb) manipulación de cadenas, formato, acotaciones de operadores, introducción a los métodos. 
      
      [Clase No. 3:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_3.ipynb) estructuras de control de flujo, listas y operadores lógicos.
+
+     [Clase No. 4:](https://colab.research.google.com/github/frncscp/PyUniban/blob/main/Clase_4.ipynb) listas por comprensión, creación de funciones, diccionarios y tuplas.
      
      """)
     

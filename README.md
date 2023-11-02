@@ -5,5 +5,3 @@
 ## *Clase No. 3:* estructuras de control de flujo, listas y operadores lógicos.
 
 ## *Clase No. 4:* listas por comprensión, creación de funciones, diccionarios y tuplas.
-
-## *Clase No. 5:* introducción a módulos con Matplotlib y Random, creación de funciones para operaciones.
